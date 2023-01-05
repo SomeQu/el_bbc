@@ -4,6 +4,8 @@ body{
     background-image: url(./bgimage.png);
     color:white;
     height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container-nav{
     width: 1440px;
@@ -13,6 +15,8 @@ body{
     align-items: center;
     background-color:#FFFFFF0F; 
     background-image:url(./bgblur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navigation{
     display: flex;
