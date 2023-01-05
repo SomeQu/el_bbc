@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./bgimage.png);
+    color:white;
+    height: 900px;
+}
+.container-nav{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF0F; 
+    background-image:url(./bgblur.png);
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.navbar-list{
+    display: flex;
+}
+.navbar-item{
+    margin-left: 40px;
+    list-style-type: none;
+}
+.rels{
+margin-right: 120px;
+}
+.rels-list{
+    display: flex;
+}
+.rels-list_item{
+    list-style-type: none;
+    margin-right: 25px;
+}
+.hero{
+    position: absolute;
+    top:400px;
+    left:400px;
+    right: 400px;
+    bottom: 318px;
+    text-align: center;
+}
+.hero-header{
+    font-size: 11.4rem;
+    letter-spacing: 45px;
+    font-weight: 800;
+}
+.hero-paragraph{
+    font-size: 2.1rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+.container-footer{
+    position:absolute;
+    top:813px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote{
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+.quote-paragraph{
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+}
+.trailer{
+    border:1px solid white;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 170px;
+    margin-bottom: 40px;
+}
+.footer-nav{
+    display: flex;
+    margin-left: 230px;
+    margin-bottom: 45px;
+}
+.continents-list{
+    display: flex;
+}
+.continents-list_item{
+    list-style-type: none;
+    margin-left: 34px;
+    color:#B6B6B6;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 4px;
+
+}
+.arrow-right{
+    margin-left: 34px;
+}
+.continents-list_item__first{
+    font-weight: 700;
+    font-size: 20px;
+    list-style-type: none;
+}
+.arrow-left{
+    margin-right: 34px;
+}
